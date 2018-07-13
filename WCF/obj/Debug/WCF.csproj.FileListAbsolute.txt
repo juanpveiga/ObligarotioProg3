@@ -1,0 +1,6 @@
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\WCF\bin\WCF.dll.config
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\WCF\bin\WCF.dll
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\WCF\bin\WCF.pdb
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\WCF\obj\Debug\WCF.dll
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\WCF\obj\Debug\WCF.pdb

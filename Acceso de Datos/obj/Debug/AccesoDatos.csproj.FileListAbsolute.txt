@@ -1,0 +1,5 @@
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\Acceso de Datos\bin\Debug\Acceso de Datos.dll
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\Acceso de Datos\bin\Debug\Acceso de Datos.pdb
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\Acceso de Datos\obj\Debug\AccesoDatos.csprojResolveAssemblyReference.cache
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\Acceso de Datos\obj\Debug\Acceso de Datos.dll
+B:\P3\ObligatorioFinal\ObligarotioProg3\ObligarotioProg3\Acceso de Datos\obj\Debug\Acceso de Datos.pdb

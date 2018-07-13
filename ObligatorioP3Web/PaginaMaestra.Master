@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="ObligatorioP3Web.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Menu ID="MenuInicio" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Login" Value="Login"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/AltaEmprendimiento.aspx" Text="AltaEmprendimiento" Value="AltaEmprendimiento"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+
+        <asp:Menu ID="MenuAdministrador" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/AltaUsuario.aspx" Text="AltaUsuario" Value="AltaUsuario"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/AgregarEvaluador.aspx" Text="AgregarEvaluador" Value="AgregarEvaluador"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/CerrarSesion.aspx" Text="CerrarSesion" Value="CerrarSesion"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+
+        <asp:Menu ID="MenuEvaluador" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/EvaluarEmprendimiento.aspx" Text="EvaluarEmprendimiento" Value="EvaluarEmprendimiento"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/CerrarSesion.aspx" Text="CerrarSesion" Value="CerrarSesion"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+
+        <asp:Menu ID="MenuPostulante" runat="server">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/AgregarPostulante.aspx" Text="AgregarPostulante" Value="AgregarPostulante"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/CerrarSesion.aspx" Text="CerrarSesion" Value="CerrarSesion"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

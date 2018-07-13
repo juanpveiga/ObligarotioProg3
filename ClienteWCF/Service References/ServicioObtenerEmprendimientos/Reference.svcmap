@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2e6e726b-38b7-4d0e-9268-5b6625c52075" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:12508/ObtenerEmprendimientos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ObtenerEmprendimientos.xsd" MetadataType="Schema" ID="3169331d-ef9c-449e-a13e-4b732a79f198" SourceId="1" SourceUrl="http://localhost:12508/ObtenerEmprendimientos.svc?xsd=xsd0" />
+    <MetadataFile FileName="ObtenerEmprendimientos1.xsd" MetadataType="Schema" ID="d6cab795-06cc-48ac-a020-6ee05a732ced" SourceId="1" SourceUrl="http://localhost:12508/ObtenerEmprendimientos.svc?xsd=xsd2" />
+    <MetadataFile FileName="ObtenerEmprendimientos2.xsd" MetadataType="Schema" ID="056180ed-05e4-44b7-9471-af1a9d2aa8b3" SourceId="1" SourceUrl="http://localhost:12508/ObtenerEmprendimientos.svc?xsd=xsd1" />
+    <MetadataFile FileName="ObtenerEmprendimientos.disco" MetadataType="Disco" ID="98f02359-62e2-4bb8-a415-0a6eb955b4d0" SourceId="1" SourceUrl="http://localhost:12508/ObtenerEmprendimientos.svc?disco" />
+    <MetadataFile FileName="ObtenerEmprendimientos.wsdl" MetadataType="Wsdl" ID="7c9dd9fb-4a10-4961-8bac-2d636e2f791f" SourceId="1" SourceUrl="http://localhost:12508/ObtenerEmprendimientos.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
